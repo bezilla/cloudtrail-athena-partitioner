@@ -32,7 +32,8 @@ aws cloudformation deploy \
     "OrganizationId=${ORGANIZATION_ID}" \
     "S3BucketName=${S3_BUCKET_NAME}" \
   --capabilities CAPABILITY_NAMED_IAM \
-  --no-fail-on-empty-changeset
+  --no-fail-on-empty-changeset \
+  --profile ${ASSUME_ROLE_FOR_MFA_ACCESS}
 ```
 
 or click this button to deploy throught the AWS Console:
