@@ -36,6 +36,6 @@ aws cloudformation deploy \
   --profile ${ASSUME_ROLE_FOR_MFA_ACCESS}
 ```
 
-or click this button to deploy throught the AWS Console:
+or click this button to deploy through the AWS Console:
 
 [![Launch Stack](https://cdn.rawgit.com/buildkite/cloudformation-launch-stack-button-svg/master/launch-stack.svg)](https://console.aws.amazon.com/cloudformation/home?region=us-east-1#/stacks/quickcreate?stackName=cloudtrail-athena-partitioner&templateUrl=https%3A%2F%2Fcloudtrail-pj-002.s3.amazonaws.com%2Fathena-cloudtrail-partitioner.yml)
